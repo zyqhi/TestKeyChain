@@ -15,6 +15,7 @@
 		8A5E091721B3DE1C00E90F5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E091621B3DE1C00E90F5E /* main.m */; };
 		8A5E092121B3DE1C00E90F5E /* TestKeyChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E092021B3DE1C00E90F5E /* TestKeyChainTests.m */; };
 		8A5E092C21B3DE1C00E90F5E /* TestKeyChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E092B21B3DE1C00E90F5E /* TestKeyChainUITests.m */; };
+		8A5E093B21B3DF5E00E90F5E /* YXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E093921B3DF5D00E90F5E /* YXKeychain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8A5E092721B3DE1C00E90F5E /* TestKeyChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKeyChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5E092B21B3DE1C00E90F5E /* TestKeyChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKeyChainUITests.m; sourceTree = "<group>"; };
 		8A5E092D21B3DE1C00E90F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5E093921B3DF5D00E90F5E /* YXKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXKeychain.m; path = TestKeyChain/YXKeychain.m; sourceTree = "<group>"; };
+		8A5E093A21B3DF5D00E90F5E /* YXKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXKeychain.h; path = TestKeyChain/YXKeychain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		8A5E08FB21B3DE1A00E90F5E = {
 			isa = PBXGroup;
 			children = (
+				8A5E093A21B3DF5D00E90F5E /* YXKeychain.h */,
+				8A5E093921B3DF5D00E90F5E /* YXKeychain.m */,
 				8A5E090621B3DE1A00E90F5E /* TestKeyChain */,
 				8A5E091F21B3DE1C00E90F5E /* TestKeyChainTests */,
 				8A5E092A21B3DE1C00E90F5E /* TestKeyChainUITests */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A5E093B21B3DF5E00E90F5E /* YXKeychain.m in Sources */,
 				8A5E090C21B3DE1A00E90F5E /* ViewController.m in Sources */,
 				8A5E091721B3DE1C00E90F5E /* main.m in Sources */,
 				8A5E090921B3DE1A00E90F5E /* AppDelegate.m in Sources */,
@@ -434,8 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RNZSCTDC8V;
+				DEVELOPMENT_TEAM = 9LQE8PHLM9;
 				INFOPLIST_FILE = TestKeyChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,8 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RNZSCTDC8V;
+				DEVELOPMENT_TEAM = 9LQE8PHLM9;
 				INFOPLIST_FILE = TestKeyChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
